@@ -1,0 +1,6 @@
+vportal = @get("vportal")
+
+print(vportal)
+print(@file)
+vportal.createSimpleServer()
+vportal.showGUI("localhost:2000")
